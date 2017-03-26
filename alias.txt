@@ -1,10 +1,24 @@
-chin=choco install -y --ignore-checksums $1
-chout=choco uninstall -y $1
+# Applications
+chin:choco install -y --ignore-checksums $1
+chout:choco uninstall -y $1
+
+# Custom
+x:exit
+xb:exit /b
 
 # Linux legacy
-clear=cls
-pwd=cd
-man=help $1
-rm=del $*
+clear:cls
+pwd:cd
+man:help $1
+rm:del $*
 # eg: alias pwd=cd
-alias=doskey $*
+alias:doskey $*
+ls:dir
+cat:type
+mv:move $*
+cp:cp $*
+read:set /p $1=
+passwd:net user %username% *
+useradd:net user $1 /add
+userdel:net user $1 /del
+usermod:net user $1 /active:yes
