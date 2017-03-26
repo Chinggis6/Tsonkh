@@ -1,3 +1,6 @@
+# Default options
+rmdir:rmdir /s /q
+
 # Applications
 chin:choco install -y --ignore-checksums $1
 chout:choco uninstall -y $1
@@ -17,7 +20,7 @@ man:help $1
 rm:del $*
 # eg: alias pwd=cd
 alias:doskey $*
-ls:dir
+ls:dir $*
 cat:type $*
 mv:move $*
 cp:cp $*
@@ -27,3 +30,10 @@ useradd:net user $1 /add
 userdel:net user $1 /del
 usermod:net user $1 /active:yes
 history:doskey /history
+ps:tasklist
+kill:taskkill /f /im $1.exe
+killall:taskkill /t /f /im $1.exe
+ln:mklink $1 $2
+arch:echo %processor_architecture%
+grep:find "$1" $2
+export:setx
