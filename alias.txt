@@ -1,39 +1,40 @@
 # Default options
-rmdir:rmdir /s /q
+rmdir	rmdir /s /q
 
 # Applications
-chin:choco install -y --ignore-checksums $1
-chout:choco uninstall -y $1
+chin	choco install -y --ignore-checksums $1
+chout	choco uninstall -y $1
 
 # Git & GitHub
-c:git commit -m "Bulk commit" -a
-p:git push
+c	git commit -m "Bulk commit" -a
+p	git push
 
 # Custom
-x:exit
-xb:exit /b
+x	exit
+xb	exit /b
 
 # Linux legacy
-clear:cls
-pwd:cd
-man:help $1
-rm:del $*
+clear	cls
+pwd	cd
+man	help $1
+rm	del $*
 # eg: alias pwd=cd
-alias:doskey $*
-ls:dir $*
-cat:type $*
-mv:move $*
-cp:cp $*
-read:set /p $1=
-passwd:net user %username% *
-useradd:net user $1 /add
-userdel:net user $1 /del
-usermod:net user $1 /active:yes
-history:doskey /history
-ps:tasklist
-kill:taskkill /f /im $1.exe
-killall:taskkill /t /f /im $1.exe
-ln:mklink $1 $2
-arch:echo %processor_architecture%
-grep:find "$1" $2
-export:setx
+alias	doskey $*
+ls	dir $*
+cat	type $*
+mv	move $*
+cp	cp $*
+read	set /p $1=
+passwd	net user %username% *
+useradd	net user /add $1 $2
+userdel	net user /del $1
+usermod	net user /active:yes $1
+history	doskey /history
+ps	tasklist
+kill	taskkill /f /im $1.exe
+killall	taskkill /t /f /im $1.exe
+ln	mklink $1 $2
+arch	echo %processor_architecture%
+grep	find "$1" $2
+export	setx
+uname	systeminfo
