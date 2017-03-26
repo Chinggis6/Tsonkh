@@ -5,3 +5,6 @@ chout=choco uninstall -y $1
 clear=cls
 pwd=cd
 man=help $1
+rm=del $*
+# eg: alias pwd=cd
+alias=doskey $*
