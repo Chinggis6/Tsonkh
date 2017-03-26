@@ -18,7 +18,7 @@ rm:del $*
 # eg: alias pwd=cd
 alias:doskey $*
 ls:dir
-cat:type
+cat:type $*
 mv:move $*
 cp:cp $*
 read:set /p $1=
@@ -26,3 +26,4 @@ passwd:net user %username% *
 useradd:net user $1 /add
 userdel:net user $1 /del
 usermod:net user $1 /active:yes
+history:doskey /history
