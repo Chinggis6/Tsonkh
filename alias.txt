@@ -1,0 +1,7 @@
+chin=choco install -y --ignore-checksums $1
+chout=choco uninstall -y $1
+
+# Linux legacy
+clear=cls
+pwd=cd
+man=help $1
