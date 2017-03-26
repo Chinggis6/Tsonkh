@@ -1,4 +1,6 @@
 # Tsonkh
-Windows repository :trollface:
+Reconfiguration of Windows
 
-Environment variables and command aliases.
+* **Environment variables** and **command aliases**.
+
+* Application-level configuration
