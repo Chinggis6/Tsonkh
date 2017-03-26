@@ -2,6 +2,10 @@
 chin:choco install -y --ignore-checksums $1
 chout:choco uninstall -y $1
 
+# Git & GitHub
+c:git commit -m "Bulk commit" -a
+p:git push
+
 # Custom
 x:exit
 xb:exit /b
