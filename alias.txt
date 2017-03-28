@@ -21,6 +21,7 @@ rm	del $*
 # eg: alias pwd=cd
 alias	doskey $*
 ls	dir $*
+la	dir /ah
 cat	type $*
 mv	move $*
 cp	cp $*
