@@ -13,11 +13,11 @@ Reconfiguration of [Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)
 * [Switcheroo](https://github.com/kvakulo/Switcheroo) *task switcher*
 * [Clink](https://github.com/mridgers/clink) *Readline library* 
 
-* Chocolatey
-* SharpKeys
-* Far Manager
-* Vim
-* Qutebrowser
+* Chocolatey *package manager*
+* SharpKeys *key mapper*
+* Far Manager *file manager*
+* Vim *text editor*
+* Qutebrowser *web browser*
 
 ---
 
