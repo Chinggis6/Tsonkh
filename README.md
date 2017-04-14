@@ -11,7 +11,7 @@ Reconfiguration of [Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)
 ## Bearable Windows
 
 * [Switcheroo](https://github.com/kvakulo/Switcheroo) *task switcher*
-* [Clink(https://github.com/mridgers/clink) *Readline library* 
+* [Clink](https://github.com/mridgers/clink) *Readline library* 
 
 * Chocolatey
 * SharpKeys
