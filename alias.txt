@@ -4,6 +4,9 @@ rmdir	rmdir /s /q
 # Applications
 chin	choco install -y --ignore-checksums $1
 chout	choco uninstall -y $1
+chup	choco upgrade -y $1
+chinfo	choco info $1
+chls 	choco search $1
 
 # Git & GitHub
 c	git commit -m "Bulk commit" -a
@@ -39,3 +42,5 @@ arch	echo %processor_architecture%
 grep	find "$1" $2
 export	setx
 uname	systeminfo
+less	more
+most	more
