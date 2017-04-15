@@ -10,10 +10,10 @@ Reconfiguration of [Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)
 
 ## Bearable Windows
 
-* [Switcheroo](https://github.com/kvakulo/Switcheroo) *task switcher*
-* [Clink](https://github.com/mridgers/clink) *Readline library for `cmd.exe`* 
-
 * Chocolatey *package manager*
+* [Switcheroo](https://github.com/kvakulo/Switcheroo) *task switcher*
+* [Clink](https://github.com/mridgers/clink) *Readline library for `cmd.exe`*
+* Redshift (`redshift` and `redshiftgui` packages)
 * SharpKeys *key mapper*
 * [Far Manager](http://farmanager.com/) *file manager*
 * Vim *text editor*
@@ -21,7 +21,7 @@ Reconfiguration of [Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)
 
 ---
 
-## Reandom thoughts
+## Random thoughts
 
 > Tsonkh means "Window" in **Mongolian**
 
