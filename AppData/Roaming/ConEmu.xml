@@ -84,13 +84,13 @@
 				</key>
 			</key>
 		</key>
-		<key name=".Vanilla" modified="2017-04-15 04:50:25" build="170402">
+		<key name=".Vanilla" modified="2017-04-15 05:16:07" build="170402">
 			<value name="UseCurrentSizePos" type="hex" data="01"/>
 			<value name="AutoSaveSizePos" type="hex" data="01"/>
 			<value name="Cascaded" type="hex" data="01"/>
 			<value name="IntegralSize" type="hex" data="00"/>
 			<value name="WindowMode" type="dword" data="0000051f"/>
-			<value name="ConWnd X" type="long" data="514"/>
+			<value name="ConWnd X" type="long" data="517"/>
 			<value name="ConWnd Y" type="long" data="34"/>
 			<value name="LastMonitor" type="string" data="0,34,1920,1080"/>
 			<value name="ConWnd Width" type="dword" data="00000058"/>
@@ -153,7 +153,7 @@
 			<value name="FontSize" type="ulong" data="14"/>
 			<value name="StatusFontHeight" type="long" data="12"/>
 			<value name="TabFontHeight" type="long" data="13"/>
-			<key name="HotKeys" modified="2017-04-15 04:50:25" build="170402">
+			<key name="HotKeys" modified="2017-04-15 05:16:07" build="170402">
 				<value name="MinimizeRestore" type="dword" data="000011c0"/>
 				<value name="KeyMacroVersion" type="hex" data="02"/>
 				<value name="Multi.Modifier" type="dword" data="0000005b"/>
@@ -380,7 +380,7 @@
 			<value name="AnsiLogPath" type="string" data="%UserProfile%\ConEmu\Logs\"/>
 			<value name="KillSshAgent" type="hex" data="01"/>
 			<value name="ProcessNewConArg" type="hex" data="01"/>
-			<value name="ProcessCmdStart" type="hex" data="00"/>
+			<value name="ProcessCmdStart" type="hex" data="01"/>
 			<value name="ProcessCtrlZ" type="hex" data="00"/>
 			<value name="SuppressBells" type="hex" data="01"/>
 			<value name="ConsoleExceptionHandler" type="hex" data="00"/>
@@ -624,7 +624,7 @@
 			<value name="RetardInactivePanes" type="hex" data="00"/>
 			<value name="MinimizeOnLoseFocus" type="hex" data="00"/>
 			<value name="DisableFarFlashing" type="hex" data="00"/>
-			<value name="DisableAllFlashing" type="hex" data="00"/>
+			<value name="DisableAllFlashing" type="hex" data="01"/>
 			<value name="FindText" type="string" data=""/>
 			<value name="FindMatchCase" type="hex" data="00"/>
 			<value name="FindMatchWholeWords" type="hex" data="00"/>
@@ -670,27 +670,27 @@
 			<value name="Update.DownloadPath" type="string" data="%TEMP%\ConEmu"/>
 			<value name="Update.LeavePackages" type="hex" data="00"/>
 			<value name="Update.PostUpdateCmd" type="string" data="echo Last successful update&gt;ConEmuUpdate.info &amp;&amp; date /t&gt;&gt;ConEmuUpdate.info &amp;&amp; time /t&gt;&gt;ConEmuUpdate.info"/>
-			<key name="Tasks" modified="2017-04-15 04:50:25" build="170402">
+			<key name="Tasks" modified="2017-04-15 05:16:07" build="170402">
 				<value name="Count" type="long" data="12"/>
-				<key name="Task1" modified="2017-04-15 04:50:25" build="170402">
+				<key name="Task1" modified="2017-04-15 05:35:03" build="170402">
 					<value name="Name" type="string" data="{Far}"/>
 					<value name="Flags" type="dword" data="00000004"/>
-					<value name="Hotkey" type="dword" data="00000000"/>
+					<value name="Hotkey" type="dword" data="00005b46"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="set &quot;FARHOME=&quot; &amp; &quot;%ConEmuDir%\..\Far Manager\far.exe&quot; /w /p&quot;%ConEmuDir%\Plugins\ConEmu;%FARHOME%\Plugins;%FARPROFILE%\Plugins&quot;"/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task2" modified="2017-04-15 04:50:25" build="170402">
+				<key name="Task2" modified="2017-04-15 05:35:03" build="170402">
 					<value name="Name" type="string" data="{Shells::cmd}"/>
-					<value name="Flags" type="dword" data="00000002"/>
+					<value name="Flags" type="dword" data="00000003"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="cmd.exe /k &quot;%ConEmuBaseDir%\CmdInit.cmd&quot;"/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task3" modified="2017-04-15 04:50:25" build="170402">
+				<key name="Task3" modified="2017-04-15 05:35:03" build="170402">
 					<value name="Name" type="string" data="{Shells::cmd (Admin)}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -699,7 +699,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task4" modified="2017-04-15 04:50:25" build="170402">
+				<key name="Task4" modified="2017-04-15 05:35:03" build="170402">
 					<value name="Name" type="string" data="{Shells::cmd-32}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -708,7 +708,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task5" modified="2017-04-15 04:50:25" build="170402">
+				<key name="Task5" modified="2017-04-15 05:35:03" build="170402">
 					<value name="Name" type="string" data="{Shells::cmd 64/32}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -718,7 +718,7 @@
 					<value name="Active" type="long" data="1"/>
 					<value name="Count" type="long" data="2"/>
 				</key>
-				<key name="Task6" modified="2017-04-15 04:50:25" build="170402">
+				<key name="Task6" modified="2017-04-15 05:35:03" build="170402">
 					<value name="Name" type="string" data="{Shells::PowerShell}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -727,7 +727,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task7" modified="2017-04-15 04:50:25" build="170402">
+				<key name="Task7" modified="2017-04-15 05:35:03" build="170402">
 					<value name="Name" type="string" data="{Shells::PowerShell (Admin)}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -736,7 +736,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task8" modified="2017-04-15 04:50:25" build="170402">
+				<key name="Task8" modified="2017-04-15 05:35:03" build="170402">
 					<value name="Name" type="string" data="{Bash::CygWin bash}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -745,7 +745,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task9" modified="2017-04-15 04:50:25" build="170402">
+				<key name="Task9" modified="2017-04-15 05:35:03" build="170402">
 					<value name="Name" type="string" data="{Bash::Git bash}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -754,7 +754,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task10" modified="2017-04-15 04:50:25" build="170402">
+				<key name="Task10" modified="2017-04-15 05:35:03" build="170402">
 					<value name="Name" type="string" data="{Putty}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -763,7 +763,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task11" modified="2017-04-15 04:50:25" build="170402">
+				<key name="Task11" modified="2017-04-15 05:35:03" build="170402">
 					<value name="Name" type="string" data="{Helper::Show ANSI colors}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -772,7 +772,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task12" modified="2017-04-15 04:50:25" build="170402">
+				<key name="Task12" modified="2017-04-15 05:35:03" build="170402">
 					<value name="Name" type="string" data="{Tools::Chocolatey (Admin)}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -782,10 +782,10 @@
 					<value name="Count" type="long" data="1"/>
 				</key>
 			</key>
-			<key name="Apps" modified="2017-04-15 04:50:25" build="170402">
+			<key name="Apps" modified="2017-04-15 05:35:03" build="170402">
 				<value name="Count" type="long" data="0"/>
 			</key>
-			<key name="Colors" modified="2017-04-15 04:50:25" build="170402">
+			<key name="Colors" modified="2017-04-15 05:35:03" build="170402">
 				<value name="Count" type="long" data="0"/>
 			</key>
 		</key>
