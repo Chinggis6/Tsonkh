@@ -1,16 +1,22 @@
+" Set Vim as external editor on Far Manager
+" vim !& 
+
 syntax on
 
 set number
 set relativenumber
 
 let mapleader="\<Space>"
+let maplocalleader="\<Backspace>"
 
-map <F2> :write<CR>
-map <F10> :quitall<CR>
+noremap <leader>w :write<CR>
+noremap <leader>q :quit<CR>
+noremap <leader>o :tabedit 
+noremap <leader>r :source $MYVIMRC<CR>
+noremap <leader>c :tabedit $MYVIMRC<CR>
 
-map <leader>w :write<CR>
-map <leader>q :quit<CR>
-map <leader>o :tabedit 
+noremap <F2> :write<CR>
+noremap <F10> :quitall<CR>
 
 noremap ; :
 noremap : Q
