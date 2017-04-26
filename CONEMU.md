@@ -8,4 +8,9 @@ win+Q Next tab
 Win+Del Close tab
 Win+Alt+P Preferences
 
+Win+Alt+k Hotkeys
+
+^E split right
+^O split bottom
+
 [https://conemu.github.io/en/KeyboardShortcuts.html]

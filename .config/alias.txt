@@ -16,7 +16,12 @@ p	git push
 # Custom
 x	exit
 xb	exit /b
+k	taskkill /t /f /im $1.exe
+
+# Shorthand
 sqlite	sqlite3 $*
+# Cisco AnyConnect Secure Mobility Client
+vpn	vpncli $*
 
 # Linux legacy
 clear	cls
@@ -29,7 +34,7 @@ ls	dir $*
 la	dir /ah
 cat	type $*
 mv	move $*
-cp	cp $*
+cp	copy $*
 read	set /p $1=
 passwd	net user %username% *
 useradd	net user /add $1 $2
@@ -48,3 +53,4 @@ less	more
 most	more
 cd~	cd /d %HOME%
 env	set
+ifconfig	ipconfig
