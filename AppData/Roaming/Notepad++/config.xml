@@ -10,7 +10,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="339" y="106" width="955" height="783" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="54" y="88" width="955" height="783" isMaximized="no" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20170430">no</GUIConfig>
         <GUIConfig name="Auto-detection">autoUpdate2End</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
